@@ -26,12 +26,14 @@ body {
 }
 .logo {
     font-size: 30px;
-    color: #000;
+    /* color: #000; */
+    color: red;
     font-weight: 700;
     text-decoration: none;
     transition: .5s;
 }
 .logo:hover {
+    color: #fff;
     border: 2px solid #000;
     padding: 10px;
     border-radius: 8px;
@@ -76,6 +78,7 @@ body {
     transition: .5s;
 }
 .navbar a:hover {
+    color: #fff;
     border: solid 2px #000;
     padding: 10px;
     border-radius: 8px;
@@ -115,7 +118,7 @@ body {
 .slide.active .left-info {
     transform: translateX(0);
     z-index: 1;
-    transition: 3.5s ease;
+    transition: 5.5s ease;
 }
 .left-info .penetrate-blur {
     position: absolute;
@@ -179,7 +182,7 @@ body {
 }
 .slide.active .right-info {
     transform: translateX(0);
-    transition: 3.5s;
+    transition: 5.5s;
 }
 .right-info .penetrate-blur {
     position: absolute;
